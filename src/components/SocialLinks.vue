@@ -2,7 +2,7 @@
   <!-- 社交链接 -->
   <div class="social">
     <div class="link">
-      <a
+<!--      <a
         v-for="item in socialLinks"
         :key="item.name"
         :href="item.url"
@@ -11,7 +11,7 @@
         @mouseleave="socialTip = '通过这里联系我吧'"
       >
         <img class="icon" :src="item.icon" height="24" />
-      </a>
+      </a>-->
     </div>
     <span class="tip">{{ socialTip }}</span>
   </div>
